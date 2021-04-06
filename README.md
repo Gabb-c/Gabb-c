@@ -1,16 +1,22 @@
-### Hi there 👋
+<div align="center" justify="center">
 
-<!--
-**Gabb-c/Gabb-c** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h4>Hello 👋 I'm Gabriel, aka Gabb-c</h4>
+<p><em>Front-end Developer</em></p>
 
-Here are some ideas to get you started:
+[![GitHub followers](https://img.shields.io/github/followers/Gabb-c?label=Follow&style=social)](https://github.com/Gabb-c)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+----
+🔭 Currently Working on [Canuh Bot](https://github.com/Gabb-c/CanuhBot), [Juh Bot](https://github.com/Gabb-c/Juh) and a setup for [React TypeScript](https://github.com/Gabb-c/react-ts-setup)
+
+📫 Let's get social on [Discord](https://discord.gg/cu8aMYw)
+
+🖇️ Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/) profile
+
+⚡ Fun fact! I love sushi  🍣
+
+----
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight)
+
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&layout=compact&count_private=true&theme=tokyonight)
+</div>
