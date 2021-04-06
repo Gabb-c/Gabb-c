@@ -8,7 +8,7 @@
 ----
 🔭 Currently Working on [Canuh Bot](https://github.com/Gabb-c/CanuhBot), [Juh Bot](https://github.com/Gabb-c/Juh) and a setup for [React TypeScript](https://github.com/Gabb-c/react-ts-setup)
 
-📫 Let's get social on [Discord](https://discord.gg/cu8aMYw)
+📫 Let's get social on Discord! My user id: `Gabb-c#8936`
 
 🖇️ Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/) profile
 
