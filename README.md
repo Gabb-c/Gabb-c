@@ -12,7 +12,7 @@
 
 🖇️ Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/) profile
 
-⚡ Fun fact! I love sushi  🍣
+⚡ Fun fact! I love coffee  ☕
 
 ----
 
