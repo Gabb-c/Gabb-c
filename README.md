@@ -9,7 +9,7 @@
 <img width="50%" align="right" alt="Langagues" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&layout=compact&count_private=true&theme=tokyonight"/>
 
 <p align="left" >
-Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer at Brazil. What motivates me to study and learn new technologies, is to always develop highly scalable projects with quality and innovation. If you like, you can contribute to my projects.
+Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer at Brazil. What motivates me to study and learn new technologies, is to always develop highly scalable projects with quality and innovation.
 </p>
 
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/Gabb-c?style=social">
