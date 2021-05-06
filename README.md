@@ -1,7 +1,7 @@
 <div align="center" justify="center">
  
 <h2>Gabriel, A.K.A Gabb-c</h2>
-<p><em>「  Front-End Developer ( sometimes full stack ツ ) 」 </em></p>
+<p> 「  <em>Front-End Developer ( sometimes full stack ツ ) </em>  」 </p>
 
 </div>
 <img width="50%" align="right" alt="Stats" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight"/>
