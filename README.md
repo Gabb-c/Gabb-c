@@ -1,12 +1,18 @@
 <div align="center" justify="center">
-<h2>Hello 👋 I'm Gabriel, A.K.A Gabb-c</h2>
+ 
+<h2>Gabriel, A.K.A Gabb-c</h2>
+<p><em>「  Front-End Developer ( sometimes full stack ツ ) 」 </em></p>
 
-<p><em>「  Front-End Developer ( sometimes full stack ツ ) 」</em></p>
-[![GitHub followers](https://img.shields.io/github/followers/Gabb-c?label=Follow&style=social)](https://github.com/Gabb-c)
 </div>
 <img width="50%" align="right" alt="Stats" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight"/>
 
 <img width="50%" align="right" alt="Langagues" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&layout=compact&count_private=true&theme=tokyonight"/>
+
+<p align="left" >
+Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer at Brazil. What motivates me to study and learn new technologies, is to always develop highly scalable projects with quality and innovation.
+</p>
+
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/Gabb-c?style=social">
 
 ----
  - 🔭 Currently Working on a setup for [Next.js](https://github.com/Gabb-c/react-ts-setup)
