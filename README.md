@@ -15,7 +15,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/Gabb-c?style=social" />
 
 ----
- - 🔭 Currently Working on a setup for [Next.js](https://github.com/Gabb-c/react-ts-setup)
+ - 🔭 Currently Working on a secret project (coming soon . . .)
 
  - 📚 Studying TypeScript, Node.js and Kotlin
 
