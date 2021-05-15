@@ -11,6 +11,7 @@
 
 <p align="left" >
 Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer in Brazil with a passion to develop highly scalable projects with quality and innovation.
+<br/>
 </p>
 
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/Gabb-c?style=social" />
