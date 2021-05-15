@@ -10,7 +10,7 @@
 <img width="50%" align="right" alt="Langagues" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&layout=compact&count_private=true&theme=tokyonight" />
 
 <p align="left" >
-Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer in Brazil with a passion to develop highly scalable projects with quality and innovation.
+Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer in Brazil with a passion to develop highly scalable projects with quality and innovation. Thank you for visiting my profile ツ
 <br/>
 </p>
 
