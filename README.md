@@ -21,9 +21,9 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
 
  - 📚 Studying TypeScript, Node.js and Next.js
 
- - 📫 Let's get social on Discord! `Gabb-c#8936`
+ - 📫 Let's get social on [Discord](https://discordapp.com/users/345609067181375490/)
 
- - 🖇️ Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
+ - 🖇 Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
 
  - ⚡ Fun fact! I love coffee  ☕
 ----
