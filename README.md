@@ -17,7 +17,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/Gabb-c?style=social" />
 
 ----
- - 🔭 Currently Working on [Pokenode-ts](https://github.com/Gabb-c/pokenode-ts)
+ - 🔭 Currently Working on [a secret project](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
  - 📚 Studying TypeScript, Node.js and Next.js
 
