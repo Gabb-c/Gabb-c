@@ -90,3 +90,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
   <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
   
 </div>
+
+<!-- If you're using "main" as default branch
+![Metrics](https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg)
+-->
