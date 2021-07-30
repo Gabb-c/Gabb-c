@@ -28,8 +28,8 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
 
 ---
 
-<img align="center" width="38%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
-<img align="center" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&theme=tokyonight&layout=compact"
+<img align="left" width="38%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
+<img align="left" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&theme=tokyonight&layout=compact"
 
 <!-- If you're using "main" as default branch
 ![Metrics](https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg)
