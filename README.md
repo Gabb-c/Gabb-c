@@ -1,14 +1,14 @@
 <div align="center" justify="center">
  
 <h1>Gabriel, A.K.A Gabb-c</h1>
-<h3> 「  <em>Front-End Developer ( sometimes full stack ツ ) </em>  」 </h3>
+<h3> 「  <em>Full-Stack Developer</em>  」 </h3>
 
 </div>
 
 <img align="left" alt="Metrics" src="https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg" />
 
 <p align="left" >
-Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer in Brazil with a passion to develop highly scalable projects with quality and innovation. Thank you for visiting my profile ツ
+Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Developer in Brazil with a passion to develop highly scalable projects with quality and innovation. Thank you for visiting my profile ツ
 <br/>
 </p>
 
