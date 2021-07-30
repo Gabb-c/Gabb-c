@@ -14,19 +14,22 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
 
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/Gabb-c?style=social" />
 
-----
- - 🔭 Currently Working on [a secret project](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+---
 
- - 📚 Studying TypeScript, Node.js and Next.js
+- 🔭 Currently Working on [a secret project](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
- - 🏹 2021 Goals: Contribute to more open-source
+- 📚 Studying TypeScript, Node.js and Next.js
 
- - 📫 Let's get social on [Discord](https://discordapp.com/users/345609067181375490/)
+- 🏹 2021 Goals: Contribute to more open-source
 
- - 🖇 Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
-----
+- 📫 Let's get social on [Discord](https://discordapp.com/users/345609067181375490/)
 
-<img align="left" width="38%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
+- 🖇 Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
+
+---
+
+<img align="right" width="38%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
+<img align="right" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&theme=tokyonight"
 
 <!-- If you're using "main" as default branch
 ![Metrics](https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg)
