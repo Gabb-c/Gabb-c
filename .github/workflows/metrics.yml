@@ -18,10 +18,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
           plugin_gists: yes
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           plugin_languages: yes
