@@ -26,8 +26,8 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
  - 🖇 Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
 ----
 
-<img align="left" width="44%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
-<img width="44%" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&layout=compact&theme=tokyonight" />
+<img align="left" width="40%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
+<img width="40%" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&layout=compact&theme=tokyonight" />
 <!-- If you're using "main" as default branch
 ![Metrics](https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg)
 -->
