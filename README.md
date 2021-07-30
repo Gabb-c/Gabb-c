@@ -5,7 +5,7 @@
 
 </div>
 
-<img align="right" alt="Metrics" src="https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg" />
+<img align="left" alt="Metrics" src="https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg" />
 
 <p align="left" >
 Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Developer in Brazil with a passion to develop highly scalable projects with quality and innovation. Thank you for visiting my profile ツ
@@ -26,7 +26,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Front-End Develop
  - 🖇 Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
 ----
 
-<img align="left" width="38%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
+<img align="left" width="50%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
 
 <!-- If you're using "main" as default branch
 ![Metrics](https://github.com/Gabb-c/Gabb-c/blob/main/github-metrics.svg)
