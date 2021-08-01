@@ -32,6 +32,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Develo
 <img align="left" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&theme=tokyonight&layout=compact" />
 
 <div align="center" >
+  <br />
   <h1>Donations</h1>
   <a href="https://liberapay.com/Gabb-c/donate">
     <img src="https://img.shields.io/badge/Liberapay-000000.svg?style=for-the-badge&logo=liberapay&logoColor=fff&labelColor=F6C915&logoWidth=25" />
