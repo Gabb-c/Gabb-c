@@ -1,6 +1,6 @@
 <div align="center" justify="center">
  
-<h1>Gabriel, A.K.A Gabb-c</h1>
+<h1>Gabriel, A.K.A Gabb-c 👋 </h1>
 <h3> 「  <em>Full-Stack Developer</em>  」 </h3>
 
 </div>
