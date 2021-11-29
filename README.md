@@ -32,7 +32,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Develo
 
 - 📫 Let's get social on [Discord](https://discordapp.com/users/345609067181375490/)
 
-- 🖇 Also visit my [Linkedin](https://www.linkedin.com/in/gabriel-da-cunha/)
+- ✨ My dream is to work full-time with open-source
 
 ---
 
