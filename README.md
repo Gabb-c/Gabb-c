@@ -28,7 +28,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Develo
 
 - 📚 Studying [Rust](https://www.rust-lang.org)
 
-- 🏹 2021 Goals: Contribute to more open-source
+- 🏹 2022 Goals: Contribute to more open-source
 
 - 📫 Let's get social on [Discord](https://discordapp.com/users/345609067181375490/)
 
