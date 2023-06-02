@@ -26,7 +26,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Engine
 
 - 🔭 Currently Working on [a secret project](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-- 📚 Studying [Rust](https://www.rust-lang.org)
+- 📚 Studying Malware Development
 
 - 🏹 2023 Goals: Contribute to more open-source
 
