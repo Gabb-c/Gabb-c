@@ -30,6 +30,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Engine
 ---
 
 <img align="left" width="36%" src="https://github-readme-stats.vercel.app/api?username=Gabb-c&count_private=true&show_icons=true&theme=tokyonight" />
+<br/>
 <img align="left" width="36%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabb-c&theme=tokyonight&layout=compact" />
 
 <!-- If you're using "main" as default branch
