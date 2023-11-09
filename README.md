@@ -12,14 +12,7 @@ Yo! My name is Gabriel, but here you can call me Gabb-c. I'm a Full-Stack Engine
  
 <br/>
 <br/>
- 
-<a href="https://liberapay.com/Gabb-c/donate">
- <img src="https://img.shields.io/badge/Liberapay-282a36.svg?style=for-the-badge&logo=liberapay&logoColor=fff&labelColor=F6C915&logoWidth=25" />
-</a>
-<a href="https://www.paypal.com/donate/?business=8TYDGB7874HT2&no_recurring=0&currency_code=BRL">
- <img src="https://img.shields.io/badge/Payal-282a36.svg?style=for-the-badge&logo=paypal&logoColor=fff&labelColor=00457C&logoWidth=25" />
-</a>
- 
+
 </p>
 
 ---
