@@ -1,7 +1,7 @@
 <div align="center" justify="center">
  
 <h1>Gabriel, A.K.A Gabb-c 👋 </h1>
-<h3> 「  <em>Full-Stack Engineer</em>  」 </h3>
+<h3> 「  <em>Software Engineer</em>  」 </h3>
 
 </div>
 
