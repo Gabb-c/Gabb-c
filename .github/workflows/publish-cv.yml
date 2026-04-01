@@ -1,0 +1,44 @@
+name: Publish CV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Gabriel_Da_Cunha_CV.tex'
+  workflow_dispatch:
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: Gabriel_Da_Cunha_CV.tex
+          latexmk_use_xelatex: false
+          latexmk_shell_escape: false
+
+      - name: Get current date as version tag
+        id: version
+        run: echo "tag=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release and upload PDF
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: cv-${{ steps.version.outputs.tag }}
+          name: "CV — ${{ steps.version.outputs.tag }}"
+          body: |
+            Automated release of Gabriel Da Cunha's CV.
+            Compiled from `Gabriel_Da_Cunha_CV.tex` on ${{ steps.version.outputs.tag }}.
+          files: Gabriel_Da_Cunha_CV.pdf
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
