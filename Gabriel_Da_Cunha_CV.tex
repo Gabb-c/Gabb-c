@@ -1,0 +1,191 @@
+%-------------------------
+% Jake's Resume Template
+% Populated for: Gabriel Da Cunha
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------PAGE SETUP----------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.08003pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%----------SECTION FORMATTING----------
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%----------CUSTOM COMMANDS----------
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Gabriel Da Cunha} \\ \vspace{1pt}
+    \small +55 (51) 99541-5577 $|$
+    \href{mailto:gdgabrieldacunha71@gmail.com}{\underline{gdgabrieldacunha71@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/gabriel-da-cunha/}{\underline{linkedin.com/in/gabriel-da-cunha}} $|$
+    \href{https://github.com/Gabb-c}{\underline{github.com/Gabb-c}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Instituto Federal do Rio Grande do Sul}{Porto Alegre, RS, Brazil}
+      {Bachelor of Technology in Computer Science and Programming}{Nov. 2024}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Full Stack Engineer}{Aug. 2025 -- Present}
+      {Telus Digital}{Porto Alegre, RS, Brazil}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the migration of a large-scale monolithic legacy system to a distributed microservices architecture using NestJS, decoupling services and improving deployment independence for a major enterprise hospitality client.}
+        \resumeItem{Designed and delivered scalable, high-availability RESTful API backend services in NestJS and Node.js, enabling independent service scaling and improving long-term system maintainability across production environments.}
+        \resumeItem{Architected and maintained automated CI/CD pipelines using GitHub Actions and AWS, accelerating release cadence and eliminating manual deployment bottlenecks.}
+        \resumeItem{Implemented infrastructure-as-code (IaC) using Terraform and enforced cloud security compliance with Aquasec, reducing provisioning time and strengthening the overall application security posture.}
+        \resumeItem{Monitored distributed system performance and reliability using Datadog, proactively identifying and resolving production bottlenecks to maintain high availability across environments.}
+        \resumeItem{Conducted systematic code reviews and enforced software engineering best practices across the team, driving measurable improvements in code quality, test coverage, and long-term maintainability.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Software Engineer}{Aug. 2023 -- Aug. 2025}
+      {DBC Company}{Porto Alegre, RS, Brazil}
+      \resumeItemListStart
+        \resumeItem{Architected and delivered multiple enterprise-grade microservice applications using Java, Spring Framework, Docker, and Kubernetes on Azure, supporting high-traffic production workloads.}
+        \resumeItem{Built and deployed a scalable Content Management System (CMS) for a high-traffic e-commerce platform using Strapi.io, Node.js, and React.js, increasing content management efficiency and system maintainability by 80\%.}
+        \resumeItem{Engineered high-throughput RESTful APIs using Java and Spring Framework integrated with Azure cloud services, handling thousands of concurrent daily requests with consistent sub-second response times.}
+        \resumeItem{Developed full-stack web applications using TypeScript, Angular, and Spring Framework, delivering performant, accessible, and user-friendly software solutions across multiple client engagements.}
+        \resumeItem{Partnered with cross-functional engineering teams to design and implement scalable Angular frontend architectures, accelerating feature delivery and improving collaboration efficiency.}
+        \resumeItem{Established end-to-end (E2E) CI/CD pipeline integrations, automated unit, integration, and E2E test suites, and performed load and stress testing to ensure production reliability and deployment confidence.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Software Engineer}{Jul. 2020 -- Aug. 2023}
+      {A.R. Phoenix}{Porto Alegre, RS, Brazil}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained full-stack web applications using React.js and Next.js on the frontend and Spring Framework on the backend, delivering high-quality, scalable software products.}
+        \resumeItem{Designed and scaled robust RESTful API backend services with Spring Boot, applying software development best practices around performance optimization, security hardening, and horizontal scalability.}
+        \resumeItem{Integrated React.js frontend components with Spring Boot microservices, reducing inter-service latency and improving overall application throughput and system reliability.}
+        \resumeItem{Championed code quality standards through systematic code reviews, refactoring initiatives, and adoption of SOLID principles, significantly reducing technical debt across the codebase.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Software Engineer}{Jan. 2017 -- Jul. 2020}
+      {Freelance}{Porto Alegre, RS, Brazil}
+      \resumeItemListStart
+        \resumeItem{Designed and developed performant, accessible web and mobile applications using HTML5, CSS3, JavaScript, and TypeScript, delivering full-stack software development solutions across multiple industries.}
+        \resumeItem{Optimized frontend performance through code profiling, asset optimization, and lazy loading strategies, achieving a 30\% reduction in page load time and improving Core Web Vitals scores.}
+        \resumeItem{Integrated third-party payment gateway APIs into client e-commerce platforms, directly contributing to a 30\% increase in completed online transactions.}
+        \resumeItem{Managed the full software development lifecycle --- from requirements gathering and architecture design to delivery and post-launch support --- ensuring on-time completion and consistent client satisfaction.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Pokenode-ts} $|$ \emph{TypeScript, Node.js, Axios, Vitest, tsup, semantic-release}}{2021 -- Present}
+      \resumeItemListStart
+        \resumeItem{Authored and maintained an open-source lightweight TypeScript wrapper for the PokéAPI with comprehensive built-in type definitions, ensuring full type safety and an improved developer experience.}
+        \resumeItem{Achieved 300+ GitHub stars, 35+ forks, and 800+ weekly npm downloads, reflecting strong community adoption and real-world usage across multiple projects.}
+        \resumeItem{Attracted 10+ external contributors and published 20+ versioned releases, demonstrating sustainable open-source maintainership and active community engagement.}
+        \resumeItem{Implemented Axios-based auto-caching, structured logging, and a full documentation site, delivering a production-grade developer tool beyond a simple API client.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \item\small{
+      \textbf{Languages}: JavaScript, TypeScript, Python, C, C\#, C++, Rust, Go, R, HTML5, CSS3 \\
+      \textbf{Frontend}: React.js, Next.js, Angular, Svelte, Remix, Astro, Tailwind CSS, Shadcn, Bootstrap, Material UI \\
+      \textbf{Backend}: Node.js, NestJS, Spring Framework, Spring Boot, .NET, Express.js, GraphQL, REST API, SST Framework \\
+      \textbf{Databases}: PostgreSQL, Oracle, MariaDB, MongoDB, Apache Cassandra, MySQL, DynamoDB \\
+      \textbf{Cloud \& DevOps}: AWS, Azure, Docker, Kubernetes, Terraform, GitHub Actions, Datadog, Aquasec \\
+      \textbf{Tools}: Git, GitHub, GitLab, Jira, Cypress \\
+      \textbf{Practices}: Microservices Architecture, CI/CD, Infrastructure as Code (IaC), REST API Design, Software Development Lifecycle (SDLC), TDD, SOLID Principles, Agile
+    }
+  \end{itemize}
+
+
+%-----------SPOKEN LANGUAGES-----------
+\section{Spoken Languages}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \item\small{
+      \textbf{Portuguese}: Native / Bilingual (C2) \\
+      \textbf{English}: Bilingual / Proficient (C2)
+    }
+  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
