@@ -23,7 +23,7 @@ jobs:
         uses: xu-cheng/texlive-action@v3
         with:
           run: |
-            tlmgr install sourcesanspro
+            tlmgr install sourceserifpro sourcesanspro
             cd resume && latexmk -pdf -file-line-error -halt-on-error -interaction=nonstopmode template.tex
 
       - name: Get current date as version tag
