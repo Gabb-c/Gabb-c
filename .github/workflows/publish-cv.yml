@@ -30,7 +30,7 @@ jobs:
         run: echo "tag=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Rename PDF
-        run: mv template.pdf resume/Gabriel_Da_Cunha_CV.pdf
+        run: mv template.pdf Gabriel_Da_Cunha_CV.pdf
 
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v2
@@ -40,7 +40,7 @@ jobs:
           body: |
             Automated release of Gabriel Da Cunha's CV.
             Compiled from `resume/template.tex` on ${{ steps.version.outputs.tag }}.
-          files: resume/Gabriel_Da_Cunha_CV.pdf
+          files: Gabriel_Da_Cunha_CV.pdf
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
