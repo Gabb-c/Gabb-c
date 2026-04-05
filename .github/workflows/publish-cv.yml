@@ -19,7 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Compile LaTeX CV
+      - name: Compile LaTeXCV
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume/template.tex
@@ -38,9 +38,17 @@ jobs:
         with:
           tag_name: cv-${{ steps.version.outputs.tag }}
           name: "CV — ${{ steps.version.outputs.tag }}"
+          overwrite: true
           body: |
-            Automated release of Gabriel Da Cunha's CV.
-            Compiled from `resume/template.tex` on ${{ steps.version.outputs.tag }}.
+            # 🚀 Gabriel Da Cunha — CV Drop ${{ steps.version.outputs.tag }}
+
+            **What's inside:**
+            - 💼 Real experience at real companies
+            - 🔧 A stack longer than your grocery list
+            - 📦 Open-source work people actually use
+            - ☕ Powered entirely by caffeine
+
+            _Compiled from `resume/template.tex` with love and `latexmk`._
           files: Gabriel_Da_Cunha_CV.pdf
           make_latest: true
         env:
