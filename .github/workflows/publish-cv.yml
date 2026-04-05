@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'resume/**'
+      - '.github/workflows/publish-cv.yml'
   workflow_dispatch:
 
 jobs:
