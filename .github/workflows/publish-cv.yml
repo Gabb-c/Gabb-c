@@ -38,7 +38,7 @@ jobs:
         with:
           tag_name: cv-${{ steps.version.outputs.tag }}
           name: "CV — ${{ steps.version.outputs.tag }}"
-          overwrite: true
+          overwrite_files: true
           body: |
             # 🚀 Gabriel Da Cunha — CV Drop ${{ steps.version.outputs.tag }}
 
