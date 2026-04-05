@@ -30,7 +30,7 @@ jobs:
         run: echo "tag=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Rename PDF
-        run: mv resume/template.pdf resume/Gabriel_Da_Cunha_CV.pdf
+        run: mv template.pdf resume/Gabriel_Da_Cunha_CV.pdf
 
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v2
