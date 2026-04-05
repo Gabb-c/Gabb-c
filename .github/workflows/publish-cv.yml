@@ -23,14 +23,14 @@ jobs:
         uses: xu-cheng/texlive-action@v3
         with:
           run: |
-            latexmk -pdf -file-line-error -halt-on-error -interaction=nonstopmode resume/template.tex
+            cd resume && latexmk -pdf -file-line-error -halt-on-error -interaction=nonstopmode template.tex
 
       - name: Get current date as version tag
         id: version
         run: echo "tag=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Rename PDF
-        run: mv template.pdf Gabriel_Da_Cunha_CV.pdf
+        run: mv resume/template.pdf Gabriel_Da_Cunha_CV.pdf
 
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v2
