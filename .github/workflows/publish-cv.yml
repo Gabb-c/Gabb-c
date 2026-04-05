@@ -19,12 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Compile LaTeXCV
-        uses: xu-cheng/latex-action@v3
+      - name: Compile LaTeX CV
+        uses: xu-cheng/texlive-action@v3
         with:
-          root_file: resume/template.tex
-          latexmk_use_xelatex: false
-          latexmk_shell_escape: false
+          run: |
+            latexmk -pdf -file-line-error -halt-on-error -interaction=nonstopmode resume/template.tex
 
       - name: Get current date as version tag
         id: version
