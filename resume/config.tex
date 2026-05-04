@@ -23,7 +23,11 @@
   \vspace{-4pt}\scshape\raggedright\large\color{accent}
 }{}{0em}{}[\color{accent}\titlerule \vspace{-5pt}]
 
-\pdfgentounicode=1
+\ifdefined\directlua
+  \directlua{pdf.setminorversion(7)}
+\else
+  \pdfgentounicode=1
+\fi
 
 %----------CUSTOM COMMANDS----------
 \newcommand{\resumeItem}[1]{
