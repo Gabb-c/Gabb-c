@@ -22,27 +22,43 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache TeX Live packages
+      - name: Set Docker cache key
+        id: cache-key
+        run: echo "month=$(date +'%Y-%m')" >> $GITHUB_OUTPUT
+
+      - name: Restore Docker image cache
+        id: docker-cache
         uses: actions/cache@v4
         with:
-          path: /root/texmf
-          key: texlive-${{ hashFiles('resume/**') }}
-          restore-keys: |
-            texlive-
+          path: /tmp/texlive-docker.tar
+          key: texlive-alpine-${{ steps.cache-key.outputs.month }}
+          restore-keys: texlive-alpine-
+
+      - name: Load cached Docker image
+        if: steps.docker-cache.outputs.cache-hit == 'true'
+        run: docker load -i /tmp/texlive-docker.tar
+
+      - name: Pull Docker image
+        if: steps.docker-cache.outputs.cache-hit != 'true'
+        run: docker pull ghcr.io/xu-cheng/texlive-alpine:latest
 
       - name: Compile LaTeX CV
         uses: xu-cheng/texlive-action@v3
         with:
           run: |
             luaotfload-tool --update
-            cd resume && latexmk -lualatex -file-line-error -halt-on-error -interaction=nonstopmode template.tex
+            cd resume && latexmk -lualatex -file-line-error -halt-on-error -interaction=nonstopmode main.tex
+
+      - name: Save Docker image to cache
+        if: steps.docker-cache.outputs.cache-hit != 'true'
+        run: docker save ghcr.io/xu-cheng/texlive-alpine:latest -o /tmp/texlive-docker.tar
 
       - name: Get current date as version tag
         id: version
         run: echo "tag=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
 
       - name: Rename PDF
-        run: mv resume/template.pdf Gabriel_Da_Cunha_CV.pdf
+        run: mv resume/main.pdf Gabriel_Da_Cunha_CV.pdf
 
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v2
@@ -51,13 +67,24 @@ jobs:
           name: "CV — ${{ steps.version.outputs.tag }}"
           overwrite_files: true
           body: |
-            # 🚀 Gabriel Da Cunha — CV Drop ${{ steps.version.outputs.tag }}
-            **What's inside:**
-            - 💼 Real experience at real companies
-            - 🔧 A stack longer than your grocery list
-            - 📦 Open-source work people actually use
-            - ☕ Powered entirely by caffeine
-            _Compiled from `resume/template.tex` with love and `latexmk`._
+            ## 🖥️ `gabriel_da_cunha.exe` — build ${{ steps.version.outputs.tag }}
+
+            ```
+            [BOOT]  Loading professional experience......... OK
+            [BOOT]  Mounting open-source contributions...... OK
+            [BOOT]  Linking caffeine subsystem.............. OK
+            [BOOT]  Kernel: ambition v∞ — fully loaded
+            ```
+
+            **Changelog since last seen:**
+            - Shipped things that actually matter
+            - Survived production incidents and learned from them
+            - Stack grew longer; patience for bad DX grew shorter
+
+            **System requirements:** A team that values craft over cargo-culting.
+
+            ---
+            _Compiled from `resume/main.tex` · Typeset with `lualatex` · Zero warnings, maximum flex_
           files: Gabriel_Da_Cunha_CV.pdf
           make_latest: true
         env:
