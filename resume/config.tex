@@ -1,9 +1,5 @@
 %----------PAGE SETUP----------
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+\pagestyle{empty}
 \urlstyle{same}
 \raggedbottom
 \raggedright
@@ -14,11 +10,16 @@
 
 %----------PDF METADATA & LINKS----------
 \hypersetup{
-  colorlinks = true,
-  urlcolor   = accent,
-  linkcolor  = accent,
-  pdftitle   = {Gabriel da Cunha -- CV},
-  pdfauthor  = {Gabriel da Cunha},
+  colorlinks  = true,
+  urlcolor    = accent,
+  linkcolor   = accent,
+  pdftitle    = {Gabriel da Cunha -- Software Engineer CV},
+  pdfauthor   = {Gabriel da Cunha},
+  pdfsubject  = {Senior Full Stack Software Engineer Resume},
+  pdfkeywords = {TypeScript, JavaScript, Python, Go, Java, React, Next.js, NestJS, Node.js,
+                 GraphQL, REST, AWS, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
+                 Microservices, Claude Code, OpenAI API, MCP, Pinecone, pgvector,
+                 Prompt Engineering, Datadog, PostgreSQL, MongoDB, Redis, Spring Boot, CI/CD},
 }
 
 %----------SECTION FORMATTING----------
@@ -32,25 +33,30 @@
   \pdfgentounicode=1
 \fi
 
+%----------SPACING CONSTANTS----------
+\newlength{\resumeItemVSep}   \setlength{\resumeItemVSep}{-2pt}
+\newlength{\resumeSubVSep}    \setlength{\resumeSubVSep}{-7pt}
+\newlength{\resumeListVSep}   \setlength{\resumeListVSep}{-5pt}
+
 %----------CUSTOM COMMANDS----------
 \newcommand{\resumeItem}[1]{
-  \item\small{{#1 \vspace{-2pt}}}
+  \item\small{{#1 \vspace{\resumeItemVSep}}}
 }
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{\resumeSubVSep}
 }
 \newcommand{\resumeProjectHeading}[2]{
   \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{\resumeSubVSep}
 }
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{\resumeListVSep}}
