@@ -1,5 +1,4 @@
 name: Publish CV
-
 on:
   push:
     branches:
@@ -8,6 +7,10 @@ on:
       - 'resume/**'
       - '.github/workflows/publish-cv.yml'
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-and-publish:
@@ -19,11 +22,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Cache TeX Live packages
+        uses: actions/cache@v4
+        with:
+          path: /root/texmf
+          key: texlive-${{ hashFiles('resume/**') }}
+          restore-keys: |
+            texlive-
+
       - name: Compile LaTeX CV
         uses: xu-cheng/texlive-action@v3
         with:
           run: |
-            tlmgr install sourcesans luatexbase fontspec && luaotfload-tool --update
+            tlmgr install luatexbase fontspec && luaotfload-tool --update
             cd resume && latexmk -lualatex -file-line-error -halt-on-error -interaction=nonstopmode template.tex
 
       - name: Get current date as version tag
@@ -41,13 +52,11 @@ jobs:
           overwrite_files: true
           body: |
             # 🚀 Gabriel Da Cunha — CV Drop ${{ steps.version.outputs.tag }}
-
             **What's inside:**
             - 💼 Real experience at real companies
             - 🔧 A stack longer than your grocery list
             - 📦 Open-source work people actually use
             - ☕ Powered entirely by caffeine
-
             _Compiled from `resume/template.tex` with love and `latexmk`._
           files: Gabriel_Da_Cunha_CV.pdf
           make_latest: true
