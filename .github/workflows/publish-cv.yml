@@ -24,7 +24,7 @@ jobs:
         with:
           run: |
             tlmgr install sourcesans luatexbase fontspec
-            cd resume && latexmk -pdf -file-line-error -halt-on-error -interaction=nonstopmode template.tex
+            cd resume && latexmk -lualatex -file-line-error -halt-on-error -interaction=nonstopmode template.tex
 
       - name: Get current date as version tag
         id: version
